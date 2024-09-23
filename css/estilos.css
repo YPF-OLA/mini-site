@@ -1,0 +1,40 @@
+/* Regras CSS para o site inteiro */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(../imagens/oriental-tiles.png);
+    background-attachment: fixed;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Use Classe podendo selecionar apenas a primeira. */
+
+.container{
+    background-color: rgba(230, 225, 223, 0.74); /* para ficar invisivel mexe na cor. */
+
+    /* Bloco CENTRALIZADO */
+    width: 70%;
+    margin: auto;
+
+    padding: 10px;
+    border-radius: 1%;
+    box-shadow: red 10px 10px 30px 10px;
+}
+ /* Exercicioooooo✌ */
+.listas{
+    background: linear-gradient(to left, rgba(255, 0, 0, 0.568), rgba(0, 0, 255, 0.555), rgba(0, 0, 0, 0.411), transparent);
+
+    width: 60%;
+    margin: auto;
+    padding: 4%;
+    box-shadow: rgba(255, 255, 0, 0.623) 10px 10px 40px 15px;
+    border-top: 4px rgba(255, 0, 0, 0.479) solid 4px;
+    border-bottom: 4px rgba(255, 0, 0, 0.384) solid;
+
+
+}
+
+
